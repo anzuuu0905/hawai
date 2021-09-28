@@ -1,0 +1,61 @@
+.p-contact{
+}
+
+.p-contact__imgbox{
+}
+
+.p-contact__box{
+  background: url(../images/common/contact.jpg) no-repeat;
+  padding: rem(27) rem(63) rem(20);
+  width: 100%;
+  // height: rem(247.41);
+  max-width: 100%;
+  position: relative;
+  background-size: cover;
+  z-index: -2;
+}
+.p-contact__box::after {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, .7);
+}
+
+.p-contact__textbox{
+  font-size: rem(14);
+  line-height: calc(19/14);
+}
+
+.p-contact__info{
+  font-size: rem(14);
+  line-height: calc(19/14);
+  text-align: center;
+  padding-top: rem(14);
+}
+
+.p-contact__btn{
+  display: flex;
+  justify-content: center;
+  padding-top: rem(23);
+}
+
+.p-contact__telbox{
+  padding-top: rem(13);
+  font-size: rem(24);
+  font-size: bold;
+  color: #003C85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-contact__tel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

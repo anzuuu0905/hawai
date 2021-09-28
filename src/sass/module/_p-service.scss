@@ -1,0 +1,28 @@
+.p-service{
+  font-size: rem(20);
+  line-height: calc(27/20);
+  background-color: #F6F5F3;
+
+}
+
+.p-service__title{
+  padding-top: rem(28);
+}
+
+.p-service__box{
+  margin-top: rem(25);
+  position: relative;
+}
+
+.p-service__textbox{
+  position: absolute;
+  bottom: rem(38);
+  left: rem(23);
+  color: white;
+  line-height: calc(27/20);
+}
+
+.p-service__btn{
+  margin-top: rem(28);
+  width: rem(344);
+}

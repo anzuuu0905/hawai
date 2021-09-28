@@ -1,0 +1,64 @@
+.p-mv{
+  background: url(../images/common/mv.jpg);
+  
+}
+
+.p-mv__block{
+  padding-top: rem(184);
+  margin: 0 auto;
+  width: rem(258);
+  color:white;
+}
+.p-mv__title{
+  font-size: rem(26);
+  line-height: calc(34/26);
+  text-align: center;
+}
+.p-mv__title small{
+  display: block;
+  padding: rem(8) 0;
+  font-size: rem(14);
+  line-height: calc(19/14);
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+}
+.p-mv__icon{
+  height: rem(147.82);
+  position: relative;
+  width: 406.49px;
+  overflow: hidden;
+}
+.p-mv__icon img{
+  position: absolute;
+  left: -14.49px;
+  top: 0;  
+  color:initial;
+  width: inherit;
+}
+
+.p-mv__contactbtn{
+  margin: rem(50) auto 0;
+  width: rem(210);
+}
+
+.p-mv__requestbtn{
+  margin: rem(17) auto 0;
+  width: rem(210);
+}
+
+.p-mv__scroll{
+  margin-top: rem(112);
+  padding-bottom: rem(65);
+  font-size: rem(10);
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.p-mv__scroll::after{
+  position: absolute;
+  content: "";
+  height: rem(65);
+  width: rem(1);
+  border: 0.5px solid white;
+}

@@ -1,0 +1,18 @@
+.p-card{
+  position: relative;
+}
+.p-card:nth-child(odd){
+  margin-right: rem(24);
+
+}
+.p-card__category{
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+.p-card__title{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

@@ -1,0 +1,11 @@
+.p-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-cards__card{
+  margin-top: rem(25);
+}
+.p-cards__btn{
+  margin-top: rem(40);
+}

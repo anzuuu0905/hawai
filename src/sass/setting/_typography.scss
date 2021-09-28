@@ -1,0 +1,15 @@
+/* FontFamily */
+$base-font-family:
+YuGothic,    /* Mac用 */
+'Yu Gothic', /* Windows用 */
+serif;
+$second-font-family: "";
+
+body {
+  font-family: $base-font-family;
+}
+
+/* font-weight */
+$regular: 300;
+$normal: 400;
+$bold: 700;

@@ -1,0 +1,21 @@
+.p-matter{
+  position: relative;
+}
+
+.p-matter__box{
+  position: absolute;
+  color: white;
+  border: 1px solid white;
+  width: rem(121);
+  max-width: 100%;
+  font-size: rem(12);
+  padding: rem(8);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-matter__text{
+  width: inherit;
+}

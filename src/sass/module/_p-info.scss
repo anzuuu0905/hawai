@@ -1,0 +1,22 @@
+.p-info{
+  color: white;
+  background-color: #003C85;
+}
+
+.p-info__inner{
+  padding: rem(36);
+}
+
+.p-info__title{
+  font-size: rem(24);
+  line-height: calc(53/24);
+  padding-left: rem(7);
+}
+
+.p-info__box{
+  margin-top: rem(23);
+  width: rem(291);
+  max-width: 100%;
+  font-size: rem(14);
+  line-height: calc(19/14);
+}

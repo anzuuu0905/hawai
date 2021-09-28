@@ -1,0 +1,46 @@
+.c-btn{
+  display: block;
+  max-width: 100%;
+  width: rem(344);
+  text-align: center;
+  background: linear-gradient(to bottom, #0050AF, #002858);
+  color: white;
+  font-size: rem(16);
+  padding: rem(12) rem(54) rem(12) 0;
+  height: inherit;
+}
+
+
+.c-btn.c-btn--double{
+  display: block;
+  text-align: center;
+  padding: rem(8) rem(0);
+  width: rem(210);
+  text-align: center;
+  color: black;
+  border: rem(4) double black;
+  background: initial;
+}
+.c-btn.c-btn--brown{
+  display: block;
+  text-align: center;
+  padding: rem(8) rem(0);
+  width: rem(210);
+  text-align: center;
+  color: white;
+  border: none;
+  outline: 1px solid white;
+	outline-offset: -4px;
+  background: #A7907D;
+}
+.c-btn.c-btn--small{
+  display: block;
+  text-align: center;
+  padding: rem(8) rem(0);
+  width: rem(210);
+  text-align: center;
+  color: white;
+  background: initial;
+
+  border: rem(1) solid white;
+}

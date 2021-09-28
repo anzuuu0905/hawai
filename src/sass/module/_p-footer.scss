@@ -1,0 +1,44 @@
+.p-footer{
+  background: url(../images/common/footer.jpg) no-repeat;
+  background-size: cover;
+  color: white
+}
+
+.p-footer__inner{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.p-footer__iconbox{
+  margin: 0;
+  padding: 0;
+  padding-top: rem(13);
+}
+
+.p-footer__title{
+  padding-top: rem(26);
+  font-size: rem(14);
+  line-height: cal(19/14);
+}
+
+.p-footer__logo{
+  font-size: rem(14);
+  padding-top: rem(65);
+}
+
+.p-footer__copy{
+  font-size: rem(9);
+  line-height: calc(12/9);
+  padding-top: rem(11);
+}
+
+.p-footer__icon{
+  font-size: 1.5em;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: rem(42);
+  height: rem(42);
+  align-items: center;
+  text-align: center;
+  padding-top: 8px;
+}
